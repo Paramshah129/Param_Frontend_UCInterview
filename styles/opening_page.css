@@ -1,0 +1,101 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 1326px;
+    margin-top: 53px;
+    margin-left: 64px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edumate{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header-content{
+    font-size: 16px;
+}
+
+.login-button{
+    width: 119px;
+    height: 47px;
+    background: linear-gradient(to right,#3462E7,#093FC8);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign-in-button{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 119px;
+    height: 47px;
+    background: linear-gradient(to right,#3462E7,#093FC8);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    margin-top: 53px;
+    margin-left: 64px;
+    width: 1353px;
+    height: 469px;
+    position: relative;
+}
+
+.opening-page-image{
+    width: 800px;
+    height: 469px;
+}
+
+.unlock-potential{
+    width: 576px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.discover-courses{  
+    width: 549px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.search-bar{
+    width: 222px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #314D8F;
+    border:none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+.search-bar::placeholder{
+    font-size: 16px;
+    color: white;
+}

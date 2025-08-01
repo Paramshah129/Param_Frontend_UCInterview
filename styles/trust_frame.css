@@ -1,0 +1,48 @@
+.trust-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 1440px;
+    height: 123px;
+    background-color: #DCECFC;
+}
+
+.User-add-image,
+.chield-check-image{
+    height: 72px;
+    width: 72px;
+    border-radius: 40px;
+    background-color: lightblue;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;    
+}
+
+.hundred{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lorem-ipsum{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.first-image{
+    margin-left: 121px;
+}
+
+.third-image{
+    margin-right: 121px;
+}
+
+.first-image,
+.second-image,
+.third-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
