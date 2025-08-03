@@ -1,0 +1,99 @@
+.online-degrees-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online-degrees-page-middle-sections{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+    margin-top: 30px; 
+    margin-bottom: 20px;  
+}
+
+.box-1,
+.box-2,
+.box-3{
+    width: 377px;
+    height: 447px;
+    border-radius: 15px;
+    background-color: #DCECFC;
+}
+
+.box-image{
+    width: 336px;
+    height: 230px;
+    margin-top: 19px;
+    margin-left: 22px;
+    border-radius: 15px;
+}
+
+.box-title{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.box-subtitle{
+    margin-bottom: 5px;
+    margin-left: 23px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.box-desc{
+    font-size: 15px;
+    margin-left: 23px;
+    font-weight: 400;
+    width: 325px;
+    height: 81px;
+}
+
+.online-degrees-page-title{
+    color: #314D8F;
+    font-size: 70px;
+    margin-top: 75px;
+    font-weight: 500;
+    width: 500px;
+    height: 69px;            
+}
+
+.online-degrees-page-button{
+    margin-left: 1100px;
+    width: 178px;
+    height: 47px;
+    background: linear-gradient(to right,#3462E7,#093FC8);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: none;
+    cursor:pointer;       
+}
+
+.online-degrees-job-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    height: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.online-degrees-job-bar-content{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.online-degrees-job-bar-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
